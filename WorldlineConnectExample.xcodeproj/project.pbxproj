@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED287CC1538B9A65D57CEFB2 /* Pods_WorldlineConnectExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087FF68F2531F21892CC633 /* Pods_WorldlineConnectExample.framework */; };
+		F60EF89F2823DE1800B87BDF /* PaymentListItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60EF89E2823DE1800B87BDF /* PaymentListItemRowView.swift */; };
+		F60EF8A1282451D300B87BDF /* InfoButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60EF8A0282451D300B87BDF /* InfoButtonView.swift */; };
+		F66C76FF27BBA68A00136B68 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C76FE27BBA68A00136B68 /* StartScreen.swift */; };
+		F66C770127BBA68B00136B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66C770027BBA68B00136B68 /* Assets.xcassets */; };
+		F66C770427BBA68B00136B68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66C770327BBA68B00136B68 /* Preview Assets.xcassets */; };
+		F66C770B27BBF20300136B68 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C770A27BBF20300136B68 /* TextFieldView.swift */; };
+		F66C770D27BC0DA200136B68 /* InitialScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C770C27BC0DA200136B68 /* InitialScreenViewModel.swift */; };
+		F66C770F27BCEE0000136B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C770E27BCEE0000136B68 /* AppDelegate.swift */; };
+		F66C771127BCEE0A00136B68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C771027BCEE0A00136B68 /* SceneDelegate.swift */; };
+		F6CB373027D89A7F0056DD84 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CB372F27D89A7F0056DD84 /* PassKit.framework */; };
+		F6CB373227D8F4BD0056DD84 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CB373127D8F4BD0056DD84 /* UIApplication+Extensions.swift */; };
+		F6CC406C27BE85C8008532E9 /* ClientSessionParsedJsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC406B27BE85C8008532E9 /* ClientSessionParsedJsonData.swift */; };
+		F6CC406F27BE9B77008532E9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6CC407127BE9B77008532E9 /* Localizable.strings */; };
+		F6CC407527BE9C30008532E9 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC407427BE9C30008532E9 /* String+Extensions.swift */; };
+		F6CC407927BF7306008532E9 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC407827BF7306008532E9 /* BottomSheetView.swift */; };
+		F6CC407B27BF7379008532E9 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC407A27BF7379008532E9 /* View+Extensions.swift */; };
+		F6CC407D27C35EE8008532E9 /* PaymentItemListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC407C27C35EE8008532E9 /* PaymentItemListScreen.swift */; };
+		F6CC407F27C36540008532E9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC407E27C36540008532E9 /* HeaderView.swift */; };
+		F6CC408127C36E37008532E9 /* PaymentListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC408027C36E37008532E9 /* PaymentListItemView.swift */; };
+		F6CC408327C38EDE008532E9 /* PaymentProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC408227C38EDE008532E9 /* PaymentProductRow.swift */; };
+		F6CC408527C39155008532E9 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC408427C39155008532E9 /* AppConstants.swift */; };
+		F6CC408B27C42615008532E9 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC408A27C42615008532E9 /* ActivityIndicatorView.swift */; };
+		F6CC408D27C42637008532E9 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC408C27C42637008532E9 /* LoadingView.swift */; };
+		F6CC408F27C4B98E008532E9 /* PaymentListItemsScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC408E27C4B98E008532E9 /* PaymentListItemsScreenViewModel.swift */; };
+		F6CC409127C68F3A008532E9 /* CardProductScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC409027C68F39008532E9 /* CardProductScreen.swift */; };
+		F6CC409327C6903D008532E9 /* ProductTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC409227C6903D008532E9 /* ProductTextFieldView.swift */; };
+		F6CC409527C6B53B008532E9 /* CardProductScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC409427C6B53B008532E9 /* CardProductScreenViewModel.swift */; };
+		F6CC409927C96AD8008532E9 /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC409827C96AD8008532E9 /* ErrorHandling.swift */; };
+		F6CC409B27C96C1F008532E9 /* ValidationErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC409A27C96C1F008532E9 /* ValidationErrorExtension.swift */; };
+		F6CC40A127CDCC83008532E9 /* EndScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC40A027CDCC83008532E9 /* EndScreen.swift */; };
+		F6CC40A327CF442C008532E9 /* EndScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC40A227CF442B008532E9 /* EndScreenViewModel.swift */; };
+		F6CC40A927D3B175008532E9 /* NavigationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC40A827D3B175008532E9 /* NavigationUtil.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5087FF68F2531F21892CC633 /* Pods_WorldlineConnectExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldlineConnectExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEB7973A38CC206964B111E /* Pods-WorldlineConnectExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldlineConnectExample.release.xcconfig"; path = "Target Support Files/Pods-WorldlineConnectExample/Pods-WorldlineConnectExample.release.xcconfig"; sourceTree = "<group>"; };
+		848C4766E065F640C0BC6FA0 /* Pods-WorldlineConnectExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldlineConnectExample.debug.xcconfig"; path = "Target Support Files/Pods-WorldlineConnectExample/Pods-WorldlineConnectExample.debug.xcconfig"; sourceTree = "<group>"; };
+		F60EF89E2823DE1800B87BDF /* PaymentListItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentListItemRowView.swift; sourceTree = "<group>"; };
+		F60EF8A0282451D300B87BDF /* InfoButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoButtonView.swift; sourceTree = "<group>"; };
+		F66C76F927BBA68A00136B68 /* WorldlineConnectExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldlineConnectExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66C76FE27BBA68A00136B68 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		F66C770027BBA68B00136B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F66C770327BBA68B00136B68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F66C770A27BBF20300136B68 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		F66C770C27BC0DA200136B68 /* InitialScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreenViewModel.swift; sourceTree = "<group>"; };
+		F66C770E27BCEE0000136B68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F66C771027BCEE0A00136B68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6CB372E27D89A7F0056DD84 /* WorldlineConnectExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorldlineConnectExample.entitlements; sourceTree = "<group>"; };
+		F6CB372F27D89A7F0056DD84 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		F6CB373127D8F4BD0056DD84 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		F6CC406B27BE85C8008532E9 /* ClientSessionParsedJsonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientSessionParsedJsonData.swift; sourceTree = "<group>"; };
+		F6CC407027BE9B77008532E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F6CC407427BE9C30008532E9 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		F6CC407827BF7306008532E9 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		F6CC407A27BF7379008532E9 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		F6CC407C27C35EE8008532E9 /* PaymentItemListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentItemListScreen.swift; sourceTree = "<group>"; };
+		F6CC407E27C36540008532E9 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F6CC408027C36E37008532E9 /* PaymentListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentListItemView.swift; sourceTree = "<group>"; };
+		F6CC408227C38EDE008532E9 /* PaymentProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentProductRow.swift; sourceTree = "<group>"; };
+		F6CC408427C39155008532E9 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		F6CC408A27C42615008532E9 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		F6CC408C27C42637008532E9 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		F6CC408E27C4B98E008532E9 /* PaymentListItemsScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentListItemsScreenViewModel.swift; sourceTree = "<group>"; };
+		F6CC409027C68F39008532E9 /* CardProductScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProductScreen.swift; sourceTree = "<group>"; };
+		F6CC409227C6903D008532E9 /* ProductTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTextFieldView.swift; sourceTree = "<group>"; };
+		F6CC409427C6B53B008532E9 /* CardProductScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProductScreenViewModel.swift; sourceTree = "<group>"; };
+		F6CC409827C96AD8008532E9 /* ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
+		F6CC409A27C96C1F008532E9 /* ValidationErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationErrorExtension.swift; sourceTree = "<group>"; };
+		F6CC40A027CDCC83008532E9 /* EndScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScreen.swift; sourceTree = "<group>"; };
+		F6CC40A227CF442B008532E9 /* EndScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScreenViewModel.swift; sourceTree = "<group>"; };
+		F6CC40A827D3B175008532E9 /* NavigationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUtil.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F66C76F627BBA68A00136B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CB373027D89A7F0056DD84 /* PassKit.framework in Frameworks */,
+				ED287CC1538B9A65D57CEFB2 /* Pods_WorldlineConnectExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AC8B54C0E9FFA01AC3FE182 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				848C4766E065F640C0BC6FA0 /* Pods-WorldlineConnectExample.debug.xcconfig */,
+				5FEB7973A38CC206964B111E /* Pods-WorldlineConnectExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA6DB3E8F62B68E790F4A8C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6CB372F27D89A7F0056DD84 /* PassKit.framework */,
+				5087FF68F2531F21892CC633 /* Pods_WorldlineConnectExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F66C76F027BBA68A00136B68 = {
+			isa = PBXGroup;
+			children = (
+				F66C76FB27BBA68A00136B68 /* WorldlineConnectExample */,
+				F66C76FA27BBA68A00136B68 /* Products */,
+				5AC8B54C0E9FFA01AC3FE182 /* Pods */,
+				BA6DB3E8F62B68E790F4A8C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F66C76FA27BBA68A00136B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F66C76F927BBA68A00136B68 /* WorldlineConnectExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F66C76FB27BBA68A00136B68 /* WorldlineConnectExample */ = {
+			isa = PBXGroup;
+			children = (
+				F6CB372E27D89A7F0056DD84 /* WorldlineConnectExample.entitlements */,
+				F6CC408427C39155008532E9 /* AppConstants.swift */,
+				F6CC406A27BE85BF008532E9 /* Models */,
+				F6A419B227BCFAA300144C81 /* Screens */,
+				F6A419B127BCF98F00144C81 /* App */,
+				F6CC407327BE9C18008532E9 /* Extensions */,
+				F6A419B327BCFAAE00144C81 /* Components */,
+				F6CC407227BE9B86008532E9 /* Resources */,
+				F66C770227BBA68B00136B68 /* Preview Content */,
+			);
+			path = WorldlineConnectExample;
+			sourceTree = "<group>";
+		};
+		F66C770227BBA68B00136B68 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F66C770327BBA68B00136B68 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6A419B127BCF98F00144C81 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F66C770E27BCEE0000136B68 /* AppDelegate.swift */,
+				F66C771027BCEE0A00136B68 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F6A419B227BCFAA300144C81 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F6CC40A427D38C79008532E9 /* Initial */,
+				F6CC40A527D38C8A008532E9 /* PaymentListItems */,
+				F6CC40A627D38CAC008532E9 /* CardProduct */,
+				F6CC40A727D38CC8008532E9 /* End */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F6A419B327BCFAAE00144C81 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F66C770A27BBF20300136B68 /* TextFieldView.swift */,
+				F60EF8A0282451D300B87BDF /* InfoButtonView.swift */,
+				F6CC408A27C42615008532E9 /* ActivityIndicatorView.swift */,
+				F6CC408027C36E37008532E9 /* PaymentListItemView.swift */,
+				F60EF89E2823DE1800B87BDF /* PaymentListItemRowView.swift */,
+				F6CC407827BF7306008532E9 /* BottomSheetView.swift */,
+				F6CC407E27C36540008532E9 /* HeaderView.swift */,
+				F6CC408C27C42637008532E9 /* LoadingView.swift */,
+				F6CC409227C6903D008532E9 /* ProductTextFieldView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F6CC406A27BE85BF008532E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6CC409A27C96C1F008532E9 /* ValidationErrorExtension.swift */,
+				F6CC406B27BE85C8008532E9 /* ClientSessionParsedJsonData.swift */,
+				F6CC408227C38EDE008532E9 /* PaymentProductRow.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F6CC407227BE9B86008532E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6CC409827C96AD8008532E9 /* ErrorHandling.swift */,
+				F66C770027BBA68B00136B68 /* Assets.xcassets */,
+				F6CC407127BE9B77008532E9 /* Localizable.strings */,
+				F6CC40A827D3B175008532E9 /* NavigationUtil.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F6CC407327BE9C18008532E9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F6CC407427BE9C30008532E9 /* String+Extensions.swift */,
+				F6CB373127D8F4BD0056DD84 /* UIApplication+Extensions.swift */,
+				F6CC407A27BF7379008532E9 /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F6CC40A427D38C79008532E9 /* Initial */ = {
+			isa = PBXGroup;
+			children = (
+				F66C76FE27BBA68A00136B68 /* StartScreen.swift */,
+				F66C770C27BC0DA200136B68 /* InitialScreenViewModel.swift */,
+			);
+			path = Initial;
+			sourceTree = "<group>";
+		};
+		F6CC40A527D38C8A008532E9 /* PaymentListItems */ = {
+			isa = PBXGroup;
+			children = (
+				F6CC407C27C35EE8008532E9 /* PaymentItemListScreen.swift */,
+				F6CC408E27C4B98E008532E9 /* PaymentListItemsScreenViewModel.swift */,
+			);
+			path = PaymentListItems;
+			sourceTree = "<group>";
+		};
+		F6CC40A627D38CAC008532E9 /* CardProduct */ = {
+			isa = PBXGroup;
+			children = (
+				F6CC409027C68F39008532E9 /* CardProductScreen.swift */,
+				F6CC409427C6B53B008532E9 /* CardProductScreenViewModel.swift */,
+			);
+			path = CardProduct;
+			sourceTree = "<group>";
+		};
+		F6CC40A727D38CC8008532E9 /* End */ = {
+			isa = PBXGroup;
+			children = (
+				F6CC40A027CDCC83008532E9 /* EndScreen.swift */,
+				F6CC40A227CF442B008532E9 /* EndScreenViewModel.swift */,
+			);
+			path = End;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F66C76F827BBA68A00136B68 /* WorldlineConnectExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66C770727BBA68B00136B68 /* Build configuration list for PBXNativeTarget "WorldlineConnectExample" */;
+			buildPhases = (
+				B7AACF59DD37588E4CBED398 /* [CP] Check Pods Manifest.lock */,
+				F66C76F527BBA68A00136B68 /* Sources */,
+				F66C76F627BBA68A00136B68 /* Frameworks */,
+				F66C76F727BBA68A00136B68 /* Resources */,
+				6F12B8BE239A7068705C6554 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldlineConnectExample;
+			productName = WorldlineConnectExample;
+			productReference = F66C76F927BBA68A00136B68 /* WorldlineConnectExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F66C76F127BBA68A00136B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F66C76F827BBA68A00136B68 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F66C76F427BBA68A00136B68 /* Build configuration list for PBXProject "WorldlineConnectExample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F66C76F027BBA68A00136B68;
+			productRefGroup = F66C76FA27BBA68A00136B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F66C76F827BBA68A00136B68 /* WorldlineConnectExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F66C76F727BBA68A00136B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66C770427BBA68B00136B68 /* Preview Assets.xcassets in Resources */,
+				F6CC406F27BE9B77008532E9 /* Localizable.strings in Resources */,
+				F66C770127BBA68B00136B68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F12B8BE239A7068705C6554 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldlineConnectExample/Pods-WorldlineConnectExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldlineConnectExample/Pods-WorldlineConnectExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorldlineConnectExample/Pods-WorldlineConnectExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7AACF59DD37588E4CBED398 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorldlineConnectExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F66C76F527BBA68A00136B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CC409527C6B53B008532E9 /* CardProductScreenViewModel.swift in Sources */,
+				F6CC408127C36E37008532E9 /* PaymentListItemView.swift in Sources */,
+				F6CC406C27BE85C8008532E9 /* ClientSessionParsedJsonData.swift in Sources */,
+				F6CC40A127CDCC83008532E9 /* EndScreen.swift in Sources */,
+				F6CC407D27C35EE8008532E9 /* PaymentItemListScreen.swift in Sources */,
+				F6CC40A927D3B175008532E9 /* NavigationUtil.swift in Sources */,
+				F6CC409927C96AD8008532E9 /* ErrorHandling.swift in Sources */,
+				F6CC407B27BF7379008532E9 /* View+Extensions.swift in Sources */,
+				F6CC408F27C4B98E008532E9 /* PaymentListItemsScreenViewModel.swift in Sources */,
+				F6CC408D27C42637008532E9 /* LoadingView.swift in Sources */,
+				F6CC407527BE9C30008532E9 /* String+Extensions.swift in Sources */,
+				F6CC407927BF7306008532E9 /* BottomSheetView.swift in Sources */,
+				F6CB373227D8F4BD0056DD84 /* UIApplication+Extensions.swift in Sources */,
+				F6CC408327C38EDE008532E9 /* PaymentProductRow.swift in Sources */,
+				F66C76FF27BBA68A00136B68 /* StartScreen.swift in Sources */,
+				F6CC40A327CF442C008532E9 /* EndScreenViewModel.swift in Sources */,
+				F66C770D27BC0DA200136B68 /* InitialScreenViewModel.swift in Sources */,
+				F60EF89F2823DE1800B87BDF /* PaymentListItemRowView.swift in Sources */,
+				F60EF8A1282451D300B87BDF /* InfoButtonView.swift in Sources */,
+				F6CC407F27C36540008532E9 /* HeaderView.swift in Sources */,
+				F66C770F27BCEE0000136B68 /* AppDelegate.swift in Sources */,
+				F6CC409127C68F3A008532E9 /* CardProductScreen.swift in Sources */,
+				F6CC408527C39155008532E9 /* AppConstants.swift in Sources */,
+				F6CC408B27C42615008532E9 /* ActivityIndicatorView.swift in Sources */,
+				F6CC409B27C96C1F008532E9 /* ValidationErrorExtension.swift in Sources */,
+				F66C770B27BBF20300136B68 /* TextFieldView.swift in Sources */,
+				F66C771127BCEE0A00136B68 /* SceneDelegate.swift in Sources */,
+				F6CC409327C6903D008532E9 /* ProductTextFieldView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6CC407127BE9B77008532E9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6CC407027BE9B77008532E9 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F66C770527BBA68B00136B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F66C770627BBA68B00136B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F66C770827BBA68B00136B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848C4766E065F640C0BC6FA0 /* Pods-WorldlineConnectExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WorldlineConnectExample/WorldlineConnectExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorldlineConnectExample/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WorldlineConnectExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldline.connect.SwiftUIExampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F66C770927BBA68B00136B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FEB7973A38CC206964B111E /* Pods-WorldlineConnectExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WorldlineConnectExample/WorldlineConnectExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorldlineConnectExample/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WorldlineConnectExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldline.connect.SwiftUIExampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F66C76F427BBA68A00136B68 /* Build configuration list for PBXProject "WorldlineConnectExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66C770527BBA68B00136B68 /* Debug */,
+				F66C770627BBA68B00136B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66C770727BBA68B00136B68 /* Build configuration list for PBXNativeTarget "WorldlineConnectExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66C770827BBA68B00136B68 /* Debug */,
+				F66C770927BBA68B00136B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F66C76F127BBA68A00136B68 /* Project object */;
+}

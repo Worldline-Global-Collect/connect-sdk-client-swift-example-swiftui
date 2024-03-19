@@ -1,0 +1,94 @@
+"Checkout" = "Proceed to checkout";
+
+"PaymentProductsErrorExplanation" = "We are unable to retrieve the available payment products. \n\n Please check your internet connection and the provided client session identifier and customer identifier.";
+
+"PaymentProductErrorExplanation" = "We are unable to retrieve information about the selected payment product. \n\n Please check your internet connection and the provided client session identifier and customer identifier.";
+
+"PaymentProductNetworksErrorExplanation" = "We are unable to retrieve information about the selected payment product's networks. \n\n Please check your internet connection and the provided client session identifier and customer identifier.";
+
+"SubmitErrorExplanation" = "We are unable to retrieve a key to encrypt your payment information. \n\n Please check your internet connection and the provided customer client session identifier and customer identifier.";
+
+"ConnectionErrorTitle" = "Connection error";
+
+"RememberMyDetails" = "Remember my payment details for future purchases";
+
+"Pay" = "Pay";
+
+"Cancel" = "Cancel";
+
+"ContinueButtonTitle" = "Start another payment process";
+
+"SuccessLabel" = "Success!";
+
+"SuccessText" = "Tap below to copy the encrypted data that must be used in the Create Payment request.";
+
+"EncryptedDataResultLabel" = "Encrypted Customer Details";
+
+"CopyEncryptedDataLabel" = "Copy to clipboard";
+
+"EncryptedDataResultShow" = "Show encrypted fields data";
+
+"EncryptedDataResultHide" = "Hide encrypted fields data";
+
+"EncryptedFieldsHeader" = "Encrypted fields:";
+
+"EncryptedClientMetaInfoHeader" = "Encrypted client meta info:";
+
+"SetupExplanation" = "To process a payment using the services provided by Worldline Global Collect, the following information must be provided by a merchant.\n\nAfter providing the information requested below, this example app can process a payment.";
+
+"ClientSessionDetails" = "Client session details";
+"ClientSessionIdentifier" = "Client session ID";
+"ClientSessionIdentifierHint" = "Returned in the Server to Server Create Client Session call. This is the identifier of the current session.";
+
+"PaymentDetails" = "Payment details";
+"CustomerIdentifier" = "Customer ID";
+"CustomerIdentifierHint" = "Returned in the Server to Server Create Client Session call. This is a temporary identifier for you within the session.";
+
+"ClientIdentifier" = "Client API URL";
+"ClientIdentifierHint" = "Returned in the Server to Server Create Client Session call. This URL points to the Worldline Client API";
+
+"ApplePay" = "Apple Pay";
+"MerchantId" = "Merchant ID";
+"MerchantIdHint" = "Your Worldline merchant ID. You can find this ID in the Configuration Center.";
+
+"OtherOptions" = "Other options";
+
+"AssetsURL" = "Assets URL";
+"AssetsURLHint" = "Returned in the Server to Server Create Client Session call. This URL can be used to retrieve static resources, such as payment product logo images.";
+
+"Region" = "Region";
+
+"Environment" = "Environment";
+
+"AmountInCents" = "Amount in cents";
+"AmountInCentsHint" = "The amount that will be used for this payment. Note that the value must be provided in the smallest possible denominator for the currency, and should be formatted before showing.";
+
+"CountryCode" = "Country code";
+"CountryCodeHint" = "The ISO 3166-1 alpha-2 standard 2-letter Country Code of the consumer.";
+
+"CurrencyCode" = "Currency code";
+"CurrencyCodeHint" = "The ISO 4217 standard 3-letter Currency Code of the currency in which the payment will be made.";
+
+"RecurringPayment" = "Payment is recurring";
+"RecurringPaymentHint" = "Indicates whether the payment product that is used for this payment should support recurring payments. If set to true, products not supporting recurring will be filtered.";
+
+"GroupPaymentProducts" = "Group payment products";
+"GroupPaymentProductsHint" = "Enabling this setting will bundle all Credit Card payment products to a single list item (Payment Product Group). The IIN Details service call can be used to determine what card product is actually used by the consumer.";
+
+"Paste" = "Paste client session JSON reponse";
+
+"Parse" = "Parse";
+
+"JsonErrorMessage" = "Parsing failed, please paste a properly formatted JSON String";
+
+"EmptyField" = "This field should not be empty";
+
+"ProductNotAvailable" = "The product you selected is currently not available, please select another one.";
+
+"CVVTooltip" = "Please enter your security code as shown in the image";
+
+"ReturnToStart" = "Return to start";
+
+// IIN
+"iinUnknown" = "We counldn't find IIN for this card number";
+"iinUnsupported" = "IIN for this card number is currently not supported";

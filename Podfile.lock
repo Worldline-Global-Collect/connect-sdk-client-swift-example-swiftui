@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.9.0)
+  - CryptoSwift (1.4.0)
+  - WorldlineConnectKit (6.0.0):
+    - Alamofire (~> 5.4)
+    - CryptoSwift (= 1.4.0)
+
+DEPENDENCIES:
+  - WorldlineConnectKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CryptoSwift
+    - WorldlineConnectKit
+
+SPEC CHECKSUMS:
+  Alamofire: 02b772c9910e8eba1a079227c32fbd9e46c90a24
+  CryptoSwift: 7cc902df1784de3b389a387756c7d710f197730c
+  WorldlineConnectKit: 7841116884b61d3e8deedc5b804b4fc2ffa6122d
+
+PODFILE CHECKSUM: 36d39e1e69bfd7814350514a94f85bfa44c4bf30
+
+COCOAPODS: 1.15.2
