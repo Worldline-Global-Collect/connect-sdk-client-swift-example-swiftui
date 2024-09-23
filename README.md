@@ -7,18 +7,7 @@ See the [Worldline Connect Developer Hub](https://docs.connect.worldline-solutio
 
 ## Installation
 
-To run this example app for the Worldline Connect Swift Client SDK, first clone the code from GitHub:
-
-```
-$ git clone https://github.com/Worldline-Global-Collect/connect-sdk-client-swift-example-swiftui.git
-```
-
-Then use Cocoapods to install dependencies in the cloned repo:
-```
-$ pod install
-```
-
-Open the .xcworkspace project in Xcode and run the example application.
+To run this example app, clone or download the source from Github. This example uses Swift Package Manager for its dependencies and so the dependencies should be downloaded automatically as soon as you open the project in XCode.
 
 ### How do I configure a session?
 

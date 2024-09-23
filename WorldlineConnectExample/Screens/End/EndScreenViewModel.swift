@@ -9,6 +9,7 @@
 import Foundation
 import WorldlineConnectKit
 import MobileCoreServices
+import UIKit
 
 extension EndScreen {
 

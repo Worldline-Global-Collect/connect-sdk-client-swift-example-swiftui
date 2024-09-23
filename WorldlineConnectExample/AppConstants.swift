@@ -12,7 +12,7 @@ import WorldlineConnectKit
 
 class AppConstants {
     static let sdkBundle = Bundle(path: SDKConstants.kSDKBundlePath!)!
-    static let ApplicationIdentifier = "SwiftUI Example Application/v2.0.0"
+    static let ApplicationIdentifier = "SwiftUI Example Application/v2.1.0"
     static let ClientSessionId = "ClientSessionId"
     static let CustomerId = "CustomerId"
     static let MerchantId = "MerchantId"

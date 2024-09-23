@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED287CC1538B9A65D57CEFB2 /* Pods_WorldlineConnectExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087FF68F2531F21892CC633 /* Pods_WorldlineConnectExample.framework */; };
+		BFF169FE2CA16E9C00C2D66E /* WorldlineConnectKit in Frameworks */ = {isa = PBXBuildFile; productRef = BFF169FD2CA16E9C00C2D66E /* WorldlineConnectKit */; };
 		F60EF89F2823DE1800B87BDF /* PaymentListItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60EF89E2823DE1800B87BDF /* PaymentListItemRowView.swift */; };
 		F60EF8A1282451D300B87BDF /* InfoButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60EF8A0282451D300B87BDF /* InfoButtonView.swift */; };
 		F66C76FF27BBA68A00136B68 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C76FE27BBA68A00136B68 /* StartScreen.swift */; };
@@ -43,9 +43,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5087FF68F2531F21892CC633 /* Pods_WorldlineConnectExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldlineConnectExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FEB7973A38CC206964B111E /* Pods-WorldlineConnectExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldlineConnectExample.release.xcconfig"; path = "Target Support Files/Pods-WorldlineConnectExample/Pods-WorldlineConnectExample.release.xcconfig"; sourceTree = "<group>"; };
-		848C4766E065F640C0BC6FA0 /* Pods-WorldlineConnectExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldlineConnectExample.debug.xcconfig"; path = "Target Support Files/Pods-WorldlineConnectExample/Pods-WorldlineConnectExample.debug.xcconfig"; sourceTree = "<group>"; };
 		F60EF89E2823DE1800B87BDF /* PaymentListItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentListItemRowView.swift; sourceTree = "<group>"; };
 		F60EF8A0282451D300B87BDF /* InfoButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoButtonView.swift; sourceTree = "<group>"; };
 		F66C76F927BBA68A00136B68 /* WorldlineConnectExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldlineConnectExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,27 +85,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6CB373027D89A7F0056DD84 /* PassKit.framework in Frameworks */,
-				ED287CC1538B9A65D57CEFB2 /* Pods_WorldlineConnectExample.framework in Frameworks */,
+				BFF169FE2CA16E9C00C2D66E /* WorldlineConnectKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5AC8B54C0E9FFA01AC3FE182 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				848C4766E065F640C0BC6FA0 /* Pods-WorldlineConnectExample.debug.xcconfig */,
-				5FEB7973A38CC206964B111E /* Pods-WorldlineConnectExample.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		BA6DB3E8F62B68E790F4A8C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				F6CB372F27D89A7F0056DD84 /* PassKit.framework */,
-				5087FF68F2531F21892CC633 /* Pods_WorldlineConnectExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,7 +105,6 @@
 			children = (
 				F66C76FB27BBA68A00136B68 /* WorldlineConnectExample */,
 				F66C76FA27BBA68A00136B68 /* Products */,
-				5AC8B54C0E9FFA01AC3FE182 /* Pods */,
 				BA6DB3E8F62B68E790F4A8C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -265,17 +251,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F66C770727BBA68B00136B68 /* Build configuration list for PBXNativeTarget "WorldlineConnectExample" */;
 			buildPhases = (
-				B7AACF59DD37588E4CBED398 /* [CP] Check Pods Manifest.lock */,
 				F66C76F527BBA68A00136B68 /* Sources */,
 				F66C76F627BBA68A00136B68 /* Frameworks */,
 				F66C76F727BBA68A00136B68 /* Resources */,
-				6F12B8BE239A7068705C6554 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = WorldlineConnectExample;
+			packageProductDependencies = (
+				BFF169FD2CA16E9C00C2D66E /* WorldlineConnectKit */,
+			);
 			productName = WorldlineConnectExample;
 			productReference = F66C76F927BBA68A00136B68 /* WorldlineConnectExample.app */;
 			productType = "com.apple.product-type.application";
@@ -303,6 +290,9 @@
 				en,
 			);
 			mainGroup = F66C76F027BBA68A00136B68;
+			packageReferences = (
+				BFF169FC2CA16E9C00C2D66E /* XCRemoteSwiftPackageReference "connect-sdk-client-swift" */,
+			);
 			productRefGroup = F66C76FA27BBA68A00136B68 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -324,48 +314,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		6F12B8BE239A7068705C6554 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WorldlineConnectExample/Pods-WorldlineConnectExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WorldlineConnectExample/Pods-WorldlineConnectExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorldlineConnectExample/Pods-WorldlineConnectExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B7AACF59DD37588E4CBED398 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WorldlineConnectExample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F66C76F527BBA68A00136B68 /* Sources */ = {
@@ -535,7 +483,6 @@
 		};
 		F66C770827BBA68B00136B68 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 848C4766E065F640C0BC6FA0 /* Pods-WorldlineConnectExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -568,7 +515,6 @@
 		};
 		F66C770927BBA68B00136B68 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FEB7973A38CC206964B111E /* Pods-WorldlineConnectExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -621,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BFF169FC2CA16E9C00C2D66E /* XCRemoteSwiftPackageReference "connect-sdk-client-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Worldline-Global-Collect/connect-sdk-client-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BFF169FD2CA16E9C00C2D66E /* WorldlineConnectKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFF169FC2CA16E9C00C2D66E /* XCRemoteSwiftPackageReference "connect-sdk-client-swift" */;
+			productName = WorldlineConnectKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F66C76F127BBA68A00136B68 /* Project object */;
 }
