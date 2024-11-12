@@ -40,6 +40,7 @@ extension StartScreen {
         @Published var merchantIdError: String?
 
         @Published var recurringPayment: Bool = false
+        @Published var isInstallments: Bool = false
         @Published var groupProducts: Bool = false
         @Published var applePay: Bool = false
 
@@ -167,7 +168,8 @@ extension StartScreen {
                 PaymentContext(
                     amountOfMoney: amountOfMoney,
                     isRecurring: recurringPayment,
-                    countryCode: countryCode
+                    countryCode: countryCode,
+                    isInstallments: isInstallments
                 )
 
             guard let connectSDKConfiguration else {

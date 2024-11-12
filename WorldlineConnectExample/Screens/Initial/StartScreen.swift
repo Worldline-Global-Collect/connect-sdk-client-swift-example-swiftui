@@ -166,6 +166,15 @@ struct StartScreen: View {
                 }
             }
 
+            Toggle(isOn: $viewModel.isInstallments) {
+                HStack {
+                    Text("IsInstallments".localized)
+                    InfoButtonView {
+                        showBottomSheet(text: "IsInstallmentsHint".localized)
+                    }
+                }
+            }
+
             Toggle(isOn: $viewModel.groupProducts) {
                 HStack {
                     Text("GroupPaymentProducts".localized)
