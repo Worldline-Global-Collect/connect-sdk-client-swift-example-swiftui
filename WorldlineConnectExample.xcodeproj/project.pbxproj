@@ -574,7 +574,7 @@
 			repositoryURL = "https://github.com/Worldline-Global-Collect/connect-sdk-client-swift";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 6.1.1;
+				minimumVersion = 6.1.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

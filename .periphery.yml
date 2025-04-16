@@ -1,4 +1,4 @@
-workspace: WorldlineConnectExample.xcworkspace
+project: WorldlineConnectExample.xcodeproj
 schemes:
 - WorldlineConnectExample
 targets:
