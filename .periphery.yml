@@ -1,8 +1,6 @@
 project: WorldlineConnectExample.xcodeproj
 schemes:
 - WorldlineConnectExample
-targets:
-- WorldlineConnectExample
 clean_build: true
 build_arguments:
 - platform="iOS Simulator,name=iPhone 15,OS=17.0"

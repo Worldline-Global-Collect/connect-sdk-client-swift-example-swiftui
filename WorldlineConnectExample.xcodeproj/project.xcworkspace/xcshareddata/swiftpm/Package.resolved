@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Worldline-Global-Collect/connect-sdk-client-swift",
       "state" : {
-        "revision" : "e7ae8072fda44bee0e914ef735a96333f4c665bc",
-        "version" : "6.1.1"
+        "revision" : "24f051412d979c34aa42e0a8f7bfdf270005bc6c",
+        "version" : "6.1.3"
       }
     },
     {
