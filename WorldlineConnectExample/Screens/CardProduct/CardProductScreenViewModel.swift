@@ -350,8 +350,8 @@ extension CardProductScreen {
                         self.creditCardError =
                             NSLocalizedString(
                                 "gc.general.paymentProductFields.validationErrors.allowedInContext.label",
-                                tableName: SDKConstants.kSDKLocalizable,
-                                bundle: AppConstants.sdkBundle,
+                                tableName: AppConstants.assetsLocalizable,
+                                bundle: AppConstants.assetsBundle,
                                 value: "",
                                 comment:
                                     """

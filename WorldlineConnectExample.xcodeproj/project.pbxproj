@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BFF169FE2CA16E9C00C2D66E /* WorldlineConnectKit in Frameworks */ = {isa = PBXBuildFile; productRef = BFF169FD2CA16E9C00C2D66E /* WorldlineConnectKit */; };
+		BFF4707F2EC5BF9600DD85DB /* WorldlineConnectAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BFF4707E2EC5BF9600DD85DB /* WorldlineConnectAssets.bundle */; };
 		F60EF89F2823DE1800B87BDF /* PaymentListItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60EF89E2823DE1800B87BDF /* PaymentListItemRowView.swift */; };
 		F60EF8A1282451D300B87BDF /* InfoButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60EF8A0282451D300B87BDF /* InfoButtonView.swift */; };
 		F66C76FF27BBA68A00136B68 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C76FE27BBA68A00136B68 /* StartScreen.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BFF4707E2EC5BF9600DD85DB /* WorldlineConnectAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WorldlineConnectAssets.bundle; sourceTree = "<group>"; };
 		F60EF89E2823DE1800B87BDF /* PaymentListItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentListItemRowView.swift; sourceTree = "<group>"; };
 		F60EF8A0282451D300B87BDF /* InfoButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoButtonView.swift; sourceTree = "<group>"; };
 		F66C76F927BBA68A00136B68 /* WorldlineConnectExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldlineConnectExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +105,7 @@
 		F66C76F027BBA68A00136B68 = {
 			isa = PBXGroup;
 			children = (
+				BFF4707E2EC5BF9600DD85DB /* WorldlineConnectAssets.bundle */,
 				F66C76FB27BBA68A00136B68 /* WorldlineConnectExample */,
 				F66C76FA27BBA68A00136B68 /* Products */,
 				BA6DB3E8F62B68E790F4A8C5 /* Frameworks */,
@@ -309,6 +312,7 @@
 			files = (
 				F66C770427BBA68B00136B68 /* Preview Assets.xcassets in Resources */,
 				F6CC406F27BE9B77008532E9 /* Localizable.strings in Resources */,
+				BFF4707F2EC5BF9600DD85DB /* WorldlineConnectAssets.bundle in Resources */,
 				F66C770127BBA68B00136B68 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -574,7 +578,7 @@
 			repositoryURL = "https://github.com/Worldline-Global-Collect/connect-sdk-client-swift";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 6.1.4;
+				minimumVersion = 7.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

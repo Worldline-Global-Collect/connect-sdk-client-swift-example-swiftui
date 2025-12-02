@@ -158,8 +158,8 @@ extension PaymentItemListScreen {
                 let paymentProductValue =
                     NSLocalizedString(
                         paymentProductKey,
-                        tableName: SDKConstants.kSDKLocalizable,
-                        bundle: AppConstants.sdkBundle,
+                        tableName: AppConstants.assetsLocalizable,
+                        bundle: AppConstants.assetsBundle,
                         value: "",
                         comment: ""
                     )

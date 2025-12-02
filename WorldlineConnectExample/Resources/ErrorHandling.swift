@@ -31,8 +31,8 @@ struct ErrorHandler {
             let errorMessageValueWithPlaceholders =
                 NSLocalizedString(
                     errorMessageKey,
-                    tableName: SDKConstants.kSDKLocalizable,
-                    bundle: AppConstants.sdkBundle,
+                    tableName: AppConstants.assetsLocalizable,
+                    bundle: AppConstants.assetsBundle,
                     value: "",
                     comment: ""
                 )
@@ -51,8 +51,8 @@ struct ErrorHandler {
             let errorMessageValueWithPlaceholders =
                 NSLocalizedString(
                     errorMessageKey,
-                    tableName: SDKConstants.kSDKLocalizable,
-                    bundle: AppConstants.sdkBundle,
+                    tableName: AppConstants.assetsLocalizable,
+                    bundle: AppConstants.assetsBundle,
                     value: "",
                     comment: ""
                 )
@@ -75,8 +75,8 @@ struct ErrorHandler {
             errorMessageValue =
                 NSLocalizedString(
                     errorMessageKey,
-                    tableName: SDKConstants.kSDKLocalizable,
-                    bundle: AppConstants.sdkBundle,
+                    tableName: AppConstants.assetsLocalizable,
+                    bundle: AppConstants.assetsBundle,
                     value: "",
                     comment: ""
                 )

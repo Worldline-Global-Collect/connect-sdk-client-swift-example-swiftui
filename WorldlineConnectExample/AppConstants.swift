@@ -11,8 +11,11 @@ import UIKit
 import WorldlineConnectKit
 
 class AppConstants {
-    static let sdkBundle = Bundle(path: SDKConstants.kSDKBundlePath!)!
-    static let ApplicationIdentifier = "SwiftUI Example Application/v2.1.3"
+    private static let assetsBundlePath =
+        Bundle.main.path(forResource: "WorldlineConnectAssets", ofType: "bundle") ?? ""
+    static let assetsBundle = Bundle(path: assetsBundlePath) ?? Bundle.main
+    static let assetsLocalizable = "WCSDKLocalizable"
+    static let ApplicationIdentifier = "SwiftUI Example Application/v2.2.0"
     static let ClientSessionId = "ClientSessionId"
     static let CustomerId = "CustomerId"
     static let MerchantId = "MerchantId"
